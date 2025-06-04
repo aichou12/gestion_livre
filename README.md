@@ -48,7 +48,7 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 1. **Cloner le projet**
 
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-projet.git
+git clone https://github.com/aichou12/gestion_livre
 cd nom-du-projet
 
 
