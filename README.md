@@ -50,6 +50,52 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 ```bash
 git clone https://github.com/aichou12/gestion_livre
 cd nom-du-projet
+## 🧑‍💻 Configuration de la base de données
+
+Dans `.env`, configure MySQL :
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gestion_livres
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Puis, exécute :
+
+```bash
+php artisan migrate
+## 🔐 Authentification
+
+Le projet utilise l’authentification de  Laravel  . Pour l’installer :
+
+```bash
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev
+php artisan migrate
+```
+
+Cela ajoutera :
+- Routes `register`, `login`, `logout`
+- Middleware `auth` pour protéger les routes
+
+## 📝 CRUD des Livres
+
+Les livres peuvent être :
+- Ajoutés via `/livres/create`
+- Listés sur `/livres`
+- Modifiés via `/livres/{id}/edit`
+- Supprimés via le bouton "Supprimer"
+
+Structure d’un livre :
+- Titre
+- Auteur
+- Année
+- Genre
+- Résumé (optionnel)
 
 
 
