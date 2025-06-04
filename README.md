@@ -17,7 +17,7 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 
 - Inscription et connexion des utilisateurs
 - Tableau de bord après authentification
-- CRUD (Créer, Lire, Mettre à jour, Supprimer) d’un objet métier *(ex : livres, produits, événements, etc.)*
+- CRUD (Créer, Lire, Mettre à jour, Supprimer) d’un objet métier *(ex : livres)*
 - Interface utilisateur responsive (Bootstrap ou autre)
 - Base de données relationnelle (MySQL)
 - Sécurité : protection CSRF, hashage des mots de passe
