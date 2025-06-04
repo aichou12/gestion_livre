@@ -29,8 +29,8 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 - **Back-end** : Laravel (PHP)
 - **Front-end** : Blade / HTML / CSS / Bootstrap
 - **Base de données** : MySQL
-- **Authentification** : Laravel Breeze / Laravel UI / Jetstream (selon le cas)
-- **Autres** : Composer, Artisan, Eloquent ORM
+- **Authentification** : Authentification personnalisée (manuelle) basée sur le facade Auth de Laravel.
+
 
 ---
 
@@ -41,7 +41,7 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 - PHP >= 8.1
 - Composer
 - MySQL
-- Node.js et npm (si tu utilises Laravel Mix ou Vite)
+- Serveur intégré pphp artisan serve
 
 ### Étapes d’installation
 
