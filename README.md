@@ -41,7 +41,7 @@ Ce projet est une application web complète développée dans le cadre d’un ex
 - PHP >= 8.1
 - Composer
 - MySQL
-- Serveur intégré pphp artisan serve
+- Serveur intégré php artisan serve
 
 ### Étapes d’installation
 
